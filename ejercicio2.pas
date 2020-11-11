@@ -1,0 +1,41 @@
+program division;
+uses crt;
+var
+n,num,num13,num7,num5,num3,num2:integer;
+begin
+writeln ('introduzca el primer numero');
+readln(n);
+num13:=n div 13;
+num13:=n mod 13;
+TextColor(Brown);
+writeln('This is written in Brown');
+writeln('el numero es divisible de 13');
+writeln ('introduzca el segundo numero');
+readln(n);
+num7:=n div 7;
+num7:=n mod 7;
+TextColor(Green);
+writeln('This is written in Green');
+writeln('el numero es divisible ded 7');
+writeln ('introduzca el tercer numero');
+readln(n);
+num5:=n div 5;
+num5:=n mod 5;
+TextColor(Red);
+writeln('This is written in Red');
+writeln('el numero es divisible de 5');
+writeln('introduzca el cuarto numero');
+readln(n);
+num:=n div 3;
+num:=n mod 3;
+TextColor(Blue);
+writeln('This is written in Blue');
+writeln('el numero es divisible de 4');
+writeln('introduzca el quinto numero');
+readln(n);
+num2:=n div 2;
+num2:=n mod 2;
+TextColor(Yellow);
+writeln('This is written in Yellow');
+writeln('el numero es divisible de 2');
+end.
